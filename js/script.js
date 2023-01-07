@@ -12,8 +12,8 @@ console.log(" Au reveille " +  petitDejeuner + " et pour le plat de resistance d
 
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 
-
-let myWatchedSeriesLength = 3;
+let myWatchedSeriesLength = myWatchedSeries.length // correction effectuée
+console.log(myWatchedSeriesLength);
 
 console.log(" I watched " + myWatchedSeriesLength +" series: "  + myWatchedSeries);
 
@@ -21,13 +21,13 @@ console.log(" I watched " + myWatchedSeriesLength +" series: "  + myWatchedSerie
 // Partie II
 
 myWatchedSeries.splice(2,2,"friends");
+// myWatchedSeries.splice[2] = "friends";
 console.log(myWatchedSeries);
 
 myWatchedSeries.push("avengers");
-console.log(myWatchedSeries);
+// console.log(myWatchedSeries);
 
 // delete myWatchedSeries[0]
-
 
 
 myWatchedSeries.unshift(" invictus ");
@@ -55,6 +55,8 @@ console.log(item);
 let temperature = 25;
 let températureFahrenheit = (25/5*9+32);
 console.log(temperature + "°C is " + températureFahrenheit + "°F.");
+
+
 
 
 ///////////////////////////////////////////////////////
